@@ -1,0 +1,66 @@
+{
+    "Transformer (base)": {
+        "N_layers": 6,
+        "d_model": 512,
+        "dff": 2048,
+        "H_model": 8,
+        "d_sequence": 512,
+        "num_tokens": 512
+    },
+    "Transformer (big)": {
+        "N_layers": 6,
+        "d_model": 1024,
+        "dff": 4096,
+        "H_model": 16,
+        "d_sequence": 512,
+        "num_tokens": 512
+    },
+    "BERT-base": {
+        "N_layers": 12,
+        "d_model": 768,
+        "dff": 3072,
+        "H_model": 12,
+        "d_sequence": 512,
+        "num_tokens": 512
+    },
+    "BERT-large": {
+        "N_layers": 24,
+        "d_model": 1024,
+        "dff": 4096,
+        "H_model": 16,
+        "d_sequence": 512,
+        "num_tokens": 512
+    },
+    "GPT-2 Large": {
+        "N_layers": 36,
+        "d_model": 1280,
+        "dff": 5120,
+        "H_model": 20,
+        "d_sequence": 1024,
+        "num_tokens": 1024
+    },
+    "GPT-3 (175B)": {
+        "N_layers": 96,
+        "d_model": 12288,
+        "dff": 49152,
+        "H_model": 96,
+        "d_sequence": 2048,
+        "num_tokens": 2048
+    },
+    "T5-3B": {
+        "N_layers": 24,
+        "d_model": 1024,
+        "dff": 16384,
+        "H_model": 32,
+        "d_sequence": 512,
+        "num_tokens": 512
+    },
+    "OPT-350M": {
+        "N_layers": 24,
+        "d_model": 768,
+        "dff": 3072,
+        "H_model": 12,
+        "d_sequence": 2048,
+        "num_tokens": 2048
+    }
+}

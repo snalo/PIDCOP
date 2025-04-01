@@ -1,0 +1,26 @@
+{
+    "ASTRA_HW": {
+        "mul_lanes": 25,
+        "mul_cols": 515,
+        "num_attn_units": 106,
+        "num_ffn_units": 106,
+        "bit_rate": 30000000000.0,
+        "stochastic_bits": 8
+    },
+    "Archi_1": {
+        "mul_lanes": 16,
+        "mul_cols": 256,
+        "num_attn_units": 64,
+        "num_ffn_units": 64,
+        "bit_rate": 20000000000.0,
+        "stochastic_bits": 8
+    },
+    "Archi_2": {
+        "mul_lanes": 32,
+        "mul_cols": 1024,
+        "num_attn_units": 128,
+        "num_ffn_units": 128,
+        "bit_rate": 40000000000.0,
+        "stochastic_bits": 8
+    }
+}
